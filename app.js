@@ -1,17 +1,17 @@
 function App() {
-  return (
-  	<section id="body-container">
-	  	<section className="paper-container">
-	  		<section className="paper-wrapper">
-		    	<Header />
-		    	<Main />
-		    	<Employment />
-		    	<Education />
-		    </section>
+	return (
+		<section id="body-container">
+			<section className="paper-container">
+				<section className="paper-wrapper">
+					<Header />
+					<Main />
+					<Employment />
+					<Education />
+				</section>
 			</section>
-			<Footer />
+		<Footer />
 		</section>
-  );
+	);
 }
 
 function Header() {

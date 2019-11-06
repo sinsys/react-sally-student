@@ -1,0 +1,68 @@
+html,body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #FFF;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+header img, header h1 {
+  display: inline-block;
+}
+td {
+  padding: 1rem;
+}
+p, td {
+  font-size: 1.25rem;
+}
+.paper-wrapper {
+  display: block;
+  width: 100%;
+}
+.paper-container {
+  display: relative;
+  margin: 0 auto;
+  background: #f8f7ef;
+  max-width: 960px;
+  padding: 2rem;
+  -webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.25);
+  box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.25);
+}
+.avatar {
+  height: 64px;
+  border-radius: 32px;
+  border: 2px solid #131313;
+  -webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.25);
+  box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.25);
+}
+.resume-name {
+  position: relative;
+  top: -20px;
+  margin-left: 1rem;
+  font-size: 2em;
+}
+header address {
+  position: relative;
+  top: 10px;
+  float:right;
+  font-size: 1.25rem;
+}
+address {
+  border-left: 2px dashed #CCC;
+  border-radius: 100px 0 0 100px;
+  padding-left: 50px;
+}
+.col-exp span {
+  margin-left: 1rem;
+}
+footer {
+  background: #fefefe;
+  text-align: center;
+}
+
+.col-exp:hover, .col-exp span:hover{
+  color: #ACD;
+  cursor: pointer;
+}
